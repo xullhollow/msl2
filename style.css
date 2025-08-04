@@ -1,1 +1,135 @@
 
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  font-size: 1.75rem;
+  margin-bottom: 4px;
+}
+
+.header p {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+/* Promo Section */
+.promo-section {
+  margin-bottom: 32px;
+}
+
+.promo-section h2 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.promo-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+}
+
+.promo-card img {
+  width: 100%;
+  display: block;
+}
+
+.promo-info {
+  padding: 12px;
+}
+
+.promo-info h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.promo-date {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.promo-caption {
+  font-size: 0.9rem;
+}
+
+/* Game Section */
+.game-section {
+  margin-bottom: 32px;
+}
+
+.game-section h2 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.game-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.game-card {
+  min-width: 80px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 6px;
+}
+
+.game-card p {
+  font-size: 0.85rem;
+}
+
+/* Loyalty Section */
+.loyalty-section {
+  margin-bottom: 32px;
+}
+
+.loyalty-section h2 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+}
+
+.loyalty-list {
+  list-style: none;
+}
+
+.loyalty-list li {
+  background-color: #fff;
+  border-left: 4px solid #ddd;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
